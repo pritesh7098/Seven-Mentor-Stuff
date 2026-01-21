@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+  grid-auto-rows: 200px;
+  grid-auto-columns: 200px;
+  grid-auto-flow: row;
+  grid-auto-flow: column;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: skyblue;
+  border: 2px solid black;
+  padding: 5px;
+}
