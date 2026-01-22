@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bento-container {
+  display: flex;
+  padding: 1em;
+  width: 1000px;
+  height: 700px;
+  gap: 1em;
+}
+
+/* Columnn left and right  */
+
+.column-left {
+  flex: 2;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.row {
+  flex: 1;
+  border: 2px solid red;
+  border-radius: 2em;
+}
+
+/* For 3rd Row  */
+
+.row3 {
+  display: flex;
+  gap: 1em;
+  border: none;
+}
+
+.row-col {
+  flex: 1;
+  border: 2px solid red;
+  border-radius: 2em;
+}
+
+/* Right Column  */
+
+.column-right {
+  flex: 1;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Applying colors */
+
+.row1 {
+  background-color: orange;
+}
+
+.row2 {
+  background-color: white;
+}
+
+.left {
+  background-color: green;
+}
+.right {
+  background-color: green;
+}
+.top {
+  background-color: pink;
+}
+
+.bottom {
+  background-color: blueviolet;
+}
