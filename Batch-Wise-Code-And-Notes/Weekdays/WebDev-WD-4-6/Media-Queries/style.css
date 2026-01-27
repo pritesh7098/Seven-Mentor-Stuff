@@ -1,0 +1,15 @@
+
+/* If you dont use any complimentry media type it concidered all by default */
+
+/* 
+
+Max-width ( Desktop First ) : upto this checkpoint apply specific styles 
+Min-width (mobile first )  : after this checkpoint apply specific styles
+
+*/
+
+@media (min-width: 500px) {
+  h1 {
+    color: red;
+  }
+}
