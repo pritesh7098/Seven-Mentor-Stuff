@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Default styles for container , later on will erase this  */
+
+.bento-container {
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  padding: 1em;
+  gap: 1em;
+}
+
+/* -------------------------------------------- */
+
+.column-left {
+  flex: 2;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* --------------------------------------------- */
+
+.row {
+  flex: 1;
+  border: 2px solid red;
+  border-radius: 2em;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-style: bold;
+  font-style: italic;
+}
+
+.row3 {
+  display: flex;
+  gap: 1em;
+  border: none;
+}
+
+.row-col {
+  flex: 1;
+  border: 2px solid red;
+  border-radius: 2em;
+}
+
+/* --------------------------------------------- */
+
+/* Column Right */
+
+.column-right {
+  flex: 1;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* --------------------------------------------- */
+
+/* Applying colors */
+
+.row1 {
+  background-color: orange;
+}
+
+.left {
+  background-color: green;
+}
+
+.right {
+  background-color: green;
+}
+
+.top {
+  background-color: skyblue;
+}
+
+.bottom {
+  background-color: beige;
+}
