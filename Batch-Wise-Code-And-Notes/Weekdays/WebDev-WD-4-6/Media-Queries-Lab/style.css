@@ -1,0 +1,28 @@
+/* Desktop First  */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+/* Styles for Tab and Mobile */
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
