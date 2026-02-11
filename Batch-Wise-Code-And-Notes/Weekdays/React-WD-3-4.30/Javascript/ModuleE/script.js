@@ -23,22 +23,31 @@ let isValid = false;
 /* let a = undefined;
 console.log(a); */
 
-// null 
+// null
 
-let data = null; 
-console.log(data);
+/* let data = null; 
+console.log(data); */
 
-// bigint 
+// bigint
 
-let big = 987654321234567890n;
+/* let big = 987654321234567890n;
 console.log(big);
+ */
+// symbol
 
-// symbol 
-
-let id1 = Symbol("id");
+/* let id1 = Symbol("id");
 let id2 = Symbol("id");
-console.log(id1 == id2); // false
+console.log(id1 == id2); // false */
 
 /* --------------------------------- */
 
+// typeof operator
 
+console.log(typeof 100); // "number"
+console.log(typeof "Hello"); // "string"
+console.log(typeof true); // "boolean"
+console.log(typeof undefined); // "undefined"
+console.log(typeof null); // "object" (JS bug)
+console.log(typeof {}); // "object"
+console.log(typeof []); // "object"
+console.log(typeof function () {}); // "function"
