@@ -43,11 +43,54 @@ console.log(id1 == id2); // false */
 
 // typeof operator
 
-console.log(typeof 100); // "number"
-console.log(typeof "Hello"); // "string"
-console.log(typeof true); // "boolean"
-console.log(typeof undefined); // "undefined"
-console.log(typeof null); // "object" (JS bug)
-console.log(typeof {}); // "object"
-console.log(typeof []); // "object"
-console.log(typeof function () {}); // "function"
+// console.log(typeof 100); // "number"
+// console.log(typeof "Hello"); // "string"
+// console.log(typeof true); // "boolean"
+// console.log(typeof undefined); // "undefined"
+// console.log(typeof null); // "object" (JS bug)
+// console.log(typeof {}); // "object"
+// console.log(typeof []); // "object"
+// console.log(typeof function () {}); // "function"
+
+/* ----------------------------------------------------- */
+
+// ternary operator
+
+//let age = 14;
+
+//let result = age >= 18 ? "eligible" : "not eligible";
+//console.log(result);
+
+// combining conditions
+
+/* let hasId = true
+
+if (age >= 18 && hasId) {
+  //console.log("eligible");
+} */
+
+// or
+
+let hasID = false;
+let age = 14;
+
+if (age >= 14 || hasID) {
+  // console.log("eligible");
+}
+
+// not
+
+/* let isLoggedIn = false;
+
+if (!isLoggedIn) {
+  console.log("Please log in first");
+}
+ */
+
+// == ===
+
+let _name = "123";
+let _number = 123;
+
+console.log(typeof _name, typeof _number);
+console.log(typeof _name === typeof _number);
