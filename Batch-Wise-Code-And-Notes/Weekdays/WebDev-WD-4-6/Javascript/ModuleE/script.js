@@ -38,4 +38,39 @@ console.log(typeof numbers); */
 
 let id1 = Symbol("id");
 let id2 = Symbol("id");
-console.log(typeof id1); // false
+//console.log(typeof id1); // false
+
+/* -------------------------------------------- */
+
+// non-primitive datatypes
+
+// user info
+
+// let $name = "pritesh"; // console.log($name )
+// const AGE = 24;
+// let address = "PCMC";
+
+// object
+
+let userInfo = {
+  // key value pairs
+  // key : var name , value : actual value
+
+  $name: "pritesh",
+  age: 24,
+  address: "PCMC",
+};
+
+//console.log(userInfo.age);
+
+// array as an datatype
+
+let subjects = ["math", "history", "geo", "cs"];
+//console.log(subjects);
+
+// type of operator 
+
+console.log(typeof subjects );
+console.log(typeof "123");
+
+
