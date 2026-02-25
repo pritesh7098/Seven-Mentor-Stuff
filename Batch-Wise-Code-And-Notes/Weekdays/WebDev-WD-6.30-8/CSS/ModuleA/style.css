@@ -1,0 +1,26 @@
+/* descendent selector  */
+
+/* div { 
+
+    background-color: green;
+
+}
+
+
+ div p { 
+
+    background-color: red;
+
+}
+ 
+ */
+
+/* group selector's */
+
+h1,
+h2,
+h3,
+p {
+  color: skyblue;
+  background-color: antiquewhite;
+}
