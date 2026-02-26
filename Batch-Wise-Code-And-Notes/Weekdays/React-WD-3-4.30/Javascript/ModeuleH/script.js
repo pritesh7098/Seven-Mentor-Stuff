@@ -72,7 +72,7 @@ let greets = (uName) => console.log("Hello :", uName);
 
 // IIFE's
 
-setTimeout(() => {
+/* setTimeout(() => {
   console.log("print after 0 sec");
 }, 0);
 
@@ -92,4 +92,61 @@ print();
 
 setTimeout(() => {
   console.log("print after 5 sec");
-}, 5000);
+}, 5000); */
+
+/* --------------------------------------------------------------- */
+
+// callback functions
+
+/* function callback() {
+  console.log("this is a callback function");
+}
+callback();
+
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback()
+}
+
+// fun 2
+
+function goodbye() {
+  console.log("Goodbye!");
+}
+
+greet("Amit", goodbye);
+
+
+ */
+
+// local scope
+
+/* function global(){ 
+
+let x = 20; // 1
+
+function greet() {
+  console.log("hello user"); //2
+  let x = 10;
+  console.log(x); // 3 
+}
+
+console.log(x) // 4 
+
+greet()
+
+}
+
+global()
+
+ */
+
+
+let fruits = { 
+
+seasonal : "mango", 
+regular : "apple"
+
+
+
+}
