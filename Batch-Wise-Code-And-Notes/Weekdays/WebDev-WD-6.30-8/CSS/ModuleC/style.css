@@ -1,0 +1,32 @@
+/* div p,h1 {
+  color: blue;
+}
+ */
+/* 
+ ul > li {
+  color: blue;
+  font-size: medium;
+  background-color: yellow;
+}
+  */
+
+ h1 ~ p { 
+
+    color: red;
+    background-color: yellow;
+
+} 
+
+/* elements should be in the same parent */
+
+/* .warning ~p { 
+
+  color: yellow;  
+
+} */
+
+/* div p { 
+
+    color: blue;
+
+} */
