@@ -1,0 +1,58 @@
+/* a {
+  color: blue;
+  background-color: yellow;
+}
+
+a:hover {
+  color: red;
+  background-color: aqua;
+}
+
+button {
+  background-color: aqua;
+}
+
+button:hover {
+  background-color: red;
+}
+ */
+
+/* input { 
+
+    padding: 8px ;
+    border: 2px solid red;
+
+} 
+
+input:focus { 
+
+    padding: 16px;
+    border: 2px dotted red;
+background-color: aqua;
+
+} */
+
+/* n-th child */
+
+/* li {
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: gray;
+}
+
+li:nth-child(even) {
+  background-color: red;
+}
+
+li:nth-child(2) {
+  background-color: aqua;
+}
+ */
+
+/* not */
+
+li:not(:first-child) {
+  border: 2px solid red;
+}
