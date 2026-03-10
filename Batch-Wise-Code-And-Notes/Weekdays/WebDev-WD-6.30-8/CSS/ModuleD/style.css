@@ -1,58 +1,36 @@
-/* a {
-  color: blue;
-  background-color: yellow;
+/* h1::before { 
+
+    content:"😊";
+    color: black;
+
 }
 
-a:hover {
-  color: red;
-  background-color: aqua;
-}
+li::before { 
 
-button {
-  background-color: aqua;
-}
-
-button:hover {
-  background-color: red;
-}
- */
-
-/* input { 
-
-    padding: 8px ;
-    border: 2px solid red;
-
-} 
-
-input:focus { 
-
-    padding: 16px;
-    border: 2px dotted red;
-background-color: aqua;
+    content: ">";
+    color: brown;
 
 } */
 
-/* n-th child */
+/*  p::first-letter { 
 
-/* li {
-  padding: 10px;
-}
+    font-size: 60px;
+    font-style: italic;
+    color: blue;
 
-li:nth-child(odd) {
-  background-color: gray;
-}
+} */
 
-li:nth-child(even) {
-  background-color: red;
-}
+ 
+ 
+/*  p::first-line { 
 
-li:nth-child(2) {
-  background-color: aqua;
-}
- */
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
 
-/* not */
+ }  */
 
-li:not(:first-child) {
-  border: 2px solid red;
-}
+
+
+
+
