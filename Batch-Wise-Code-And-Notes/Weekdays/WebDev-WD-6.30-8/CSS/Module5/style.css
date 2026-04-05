@@ -1,0 +1,22 @@
+@font-face {
+    font-family: NotoSansKR-Bold ;
+    src: url(fonts/NotoSansKR-Bold.ttf);
+}
+
+@font-face {
+    font-family: NotoSansKR-Thin;
+    src: url(fonts/NotoSansKR-Thin.ttf);
+}
+
+h1 { 
+
+
+    font-family:NotoSansKR-Thin ;
+
+}
+
+ p { 
+
+font-family:NotoSansKR-Thin ;
+
+} 
