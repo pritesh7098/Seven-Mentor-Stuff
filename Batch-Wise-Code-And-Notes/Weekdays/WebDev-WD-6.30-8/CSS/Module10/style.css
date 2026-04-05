@@ -1,0 +1,35 @@
+.container {
+  height: 90vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+
+
+
+}
+
+#box1 {
+  width: 150px;
+  height: 150px;
+  background-color: hsl(39, 66%, 66%);
+  border: 2px solid black;
+
+}
+
+#box2 {
+  width: 150px;
+  height: 150px;
+  background-color: aqua(39, 66%, 66%);
+  border: 2px solid black;
+}
+
+#box3 {
+  width: 150px;
+  height: 150px;
+  background-color: hsl(349, 66%, 66%);
+  border: 2px solid black;
+}
+
+

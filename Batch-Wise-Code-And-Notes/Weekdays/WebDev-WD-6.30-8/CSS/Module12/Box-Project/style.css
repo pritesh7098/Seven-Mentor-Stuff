@@ -1,0 +1,36 @@
+.container {
+  background-color: gray;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+/* Mobile screens */
+
+@media (max-width: 425px) {
+  .container {
+    display: block;
+    background-color: cadetblue;
+  }
+}
+
+.box1 {
+  background-color: orange;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.box2 {
+  background-color: red;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.box3 {
+  background-color: green;
+  padding: 20px;
+  border: 2px solid black;
+}
