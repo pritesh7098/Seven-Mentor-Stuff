@@ -5,14 +5,14 @@ function App() {
 
   // step 1 - defined your states
 
-  const [data, setData] = useState(null);
+  const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   // step 2 - actual fetching logic
 
   useEffect(() => {
-    fetch("https://api.github.com/users/pritesh7098")
+    fetch("https://api.github.com/users/1")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
