@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navabar from "./components/Navabar";
+import MainRoutes from "./components/MainRoutes";
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <h1>React Router Class</h1>
       <Header />
       <Navabar />
-      <hr />
-      <hr />
+
+      <MainRoutes />
       <Footer />
     </div>
   );
