@@ -4,7 +4,11 @@ function Registration() {
   // ✅ Controlled states
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  // email 
+
+  // ❌ Uncontrolled refs
+  const emailRef = useRef();
+  const passwordRef = useRef();
+  const phoneRef = useRef();
 
   // Controlled handler
   const handleInputChange = (e) => {
@@ -15,24 +19,33 @@ function Registration() {
   };
 
   const handleFormSubmit = (e) => {
-    e.preventDefault(); // cleans all data
+    e.preventDefault();
 
     const formData = {
       // controlled values
       firstName,
       lastName,
-  
+
+      // uncontrolled values
+      email: emailRef.current.value,
+      password: passwordRef.current.value,
+      phone: phoneRef.current.value,
     };
 
-    console.log("Logged"); // debugging
-
-    console.log(formData); // form data
+    console.log("Form Data:", formData);
   };
 
   return (
     <form onSubmit={handleFormSubmit}>
       <div className="container">
         <h1>Registration Form</h1>
+
+        <p>
+          Hello my name is{" "}
+          <span>
+            {firstName} {lastName}
+          </span>
+        </p>
 
         {/* ================= CONTROLLED ================= */}
         <h3>Controlled Inputs (React State)</h3>
@@ -59,12 +72,39 @@ function Registration() {
           placeholder="Enter last name"
         />
 
-        <br />
-        <br />
+        {/* ================= UNCONTROLLED ================= */}
+        <h3>Uncontrolled Inputs (useRef)</h3>
 
-        <button type="submit" onClick={handleFormSubmit}>
-          Signup
-        </button>
+        <label>
+          <p>Email:</p>
+        </label>
+        <input
+          type="email"
+          placeholder="Enter email"
+          ref={emailRef}
+        />
+
+        <label>
+          <p>Password:</p>
+        </label>
+        <input
+          type="password"
+          placeholder="Enter password"
+          ref={passwordRef}
+        />
+
+        <label>
+          <p>Phone:</p>
+        </label>
+        <input
+          type="tel"
+          placeholder="Enter phone number"
+          ref={phoneRef}
+        />
+
+        <br /><br />
+
+        <button type="submit">Signup</button>
       </div>
     </form>
   );
