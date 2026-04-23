@@ -1,5 +1,5 @@
-import { createContext, useContext } from "react";
-import {CountContextProvider  } from "../Context/CountContextProvider";
+/* import { createContext, useContext } from "react";
+import counterContext, { CountContextProvider } from "../Context/CountContextProvider";
 
 export default function Parent() {
   return (
@@ -42,3 +42,4 @@ function Decrease() {
     </>
   );
 }
+ */
