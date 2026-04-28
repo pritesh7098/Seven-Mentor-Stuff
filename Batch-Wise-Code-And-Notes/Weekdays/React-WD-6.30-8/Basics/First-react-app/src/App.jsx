@@ -1,21 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import Counter from "./components/Counter";
 
 function App() {
-  // buisness logic
-
-  const [count] = useState(10); // react way
-  const count = 10; // js way
-
   return (
     <div>
-      {/* UI Part / UI Showcase  */}
-
-      <h1>Count : {count} </h1>
-      <button>Increment</button>
-      <br />
-      <button>Decrement</button>
-      <br />
-      <button>Reset</button>
+      <Counter />
+      <Counter />
+      <Counter />
     </div>
   );
 }
