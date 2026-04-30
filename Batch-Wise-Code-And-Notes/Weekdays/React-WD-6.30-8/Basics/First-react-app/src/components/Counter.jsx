@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Counter() {
   // buisness logic
 
-  const [count, setCount] = useState(10); // react way
+  const [count, setCount] = useState(0); // react way
   // const count = 10; // js way
 
   const Increment = () => setCount(count + 1);
   const Decrement = () => setCount(count - 1);
   const Reset = () => setCount(0);
+
+  useEffect(() => {
+    console.log("Componenet rendered : ", count);
+  }, [count]);
 
   return (
     <div>
