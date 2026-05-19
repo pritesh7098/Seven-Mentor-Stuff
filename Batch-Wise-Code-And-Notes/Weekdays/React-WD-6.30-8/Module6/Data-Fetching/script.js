@@ -1,13 +1,13 @@
 /* Asynchronous operations */
 
-/* async function fetchUserData(user) {
+ async function fetchUserData(user) {
   const data = await fetch(`https://api.github.com/users/${user}`);
 
   const finalResponse = await data.json();
   console.log(finalResponse.url);
 }
 
-fetchUserData("pritesh7098"); */
+fetchUserData("pritesh7098"); 
 
 /* promisified*/
 
