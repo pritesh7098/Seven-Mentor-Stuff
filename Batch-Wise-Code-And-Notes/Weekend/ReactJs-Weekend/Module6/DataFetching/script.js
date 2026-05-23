@@ -1,6 +1,6 @@
 // data fetching with javascript
 
-/* async function githubProfile(user) {
+async function githubProfile(user) {
   // actual logic
 
   const response = await fetch(`https://api.github.com/users/${user}`);
@@ -10,7 +10,7 @@
   console.log(finalResult.login);
 }
 
-githubProfile("pritesh7098"); */
+githubProfile("pritesh7098"); 
 
 // Promises approach - .then .catch  , promise chaining
 
