@@ -8,7 +8,9 @@ function Counter() {
 
   // let count = 0 ;
 
-  const [count, setCount] = useState(0); // useState hook to store the state and updater
+  let initialState = 0; 
+
+  const [count, setCount] = useState(initialState); // useState hook to store the state and updater
 
   const Increment = () => setCount(count + 1);
   const Decrement = () => setCount(count + 1);
