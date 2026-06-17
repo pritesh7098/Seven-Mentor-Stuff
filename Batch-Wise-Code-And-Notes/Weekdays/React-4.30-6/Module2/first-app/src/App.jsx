@@ -1,18 +1,19 @@
-import React from "react";
+import React from 'react'
+import Counter from './components/Counter'
 
 function App() {
-  // Buisness logic
 
-  // UI Showcase
+
 
   return (
-    <>
-      <div>
-        <h1>Hello React app</h1>
-        <p>This is paragraph</p>
-      </div>
-    </>
-  );
+    <div>
+
+<Counter/>
+<Counter/>
+
+
+    </div>
+  )
 }
 
-export default App;
+export default App
