@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 
 function App() {
   // states for email and pasword to manage it later on
@@ -53,3 +53,55 @@ function App() {
 }
 
 export default App;
+ 
+
+
+/* Uncontrolled Forms / Components */ 
+
+import React, { useRef } from 'react'
+
+function App() {
+
+  // Buisness logic 
+
+  
+  // Step 1 : initalizing ref variables instead of managing states. 
+
+const emailRef = useRef(); 
+const passwordRef = useRef(); 
+
+  // task : add user name and address 
+
+
+
+const handleSubmit = (e)=>{
+
+  e.preventDefault();
+  console.log("Email:" , emailRef.current.value, "Password:", passwordRef.current.value
+   );
+
+}
+
+
+
+
+  return (
+    <form onSubmit={handleSubmit}>
+
+<h1>Uncontrolled Form </h1>
+
+ <label htmlFor="Email">Email : </label>
+<input type="email" placeholder="Enter your email" ref={emailRef}/>
+<br />
+ <label htmlFor="password">Password : </label>
+<input type="password " placeholder="Enter your password" ref={passwordRef} />
+<br />
+
+      <button type="submit">Submit</button>
+
+
+    </form>
+  )
+}
+
+export default App
