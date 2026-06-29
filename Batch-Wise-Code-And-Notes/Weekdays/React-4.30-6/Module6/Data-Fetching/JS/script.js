@@ -1,6 +1,6 @@
 // function to fetch data from server
 
-/* async function githubUserProfile(username) {
+ async function githubUserProfile(username) {
   // logic
 
   const reposnse = await fetch(`https://api.github.com/users/${username}`);
@@ -10,7 +10,7 @@
   console.log(finaldata);
 }
 
-githubUserProfile("octacat"); */
+githubUserProfile("octacat"); 
 
 /* ------------------------------------------------ */
 
