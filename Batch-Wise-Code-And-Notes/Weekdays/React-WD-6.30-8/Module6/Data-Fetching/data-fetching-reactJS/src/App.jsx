@@ -48,7 +48,7 @@ export default App;
 
 /* --------------------------------------------------------- */
 
-/* 
+ 
 import React, { useState } from "react";
 import { useEffect } from "react";
 
@@ -83,7 +83,7 @@ function App() {
     <div>
       <h1>Data Fecthing in React.js</h1>
       <h3>ID:{todos.id}</h3>
-{/*       <h3>Status:{todos.completed.toString()}</h3>
+{       <h3>Status:{todos.completed.toString()}</h3>
  }      <h3>Status: {todos.completed ? "Completed" : "Not Completed"}</h3>
       <h3>Title:{todos.title}</h3>
     </div>
@@ -91,7 +91,7 @@ function App() {
 }
 
 export default App;
- */
+ 
 
 /* -------------------------------------------- */
 
