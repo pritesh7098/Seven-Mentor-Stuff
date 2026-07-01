@@ -10,13 +10,13 @@
   console.log(finaldata);
 }
 
-githubUserProfile("octacat"); 
+githubUserProfile("pritesh7098"); 
 
 /* ------------------------------------------------ */
 
 // Promises with .then and .catch
 
-function githubUserProfile() {
+/* function githubUserProfile() {
   fetch(`https://api.github.com/users/pritesh7098`)
     .then(
       (response) => response.json(), // json form
@@ -27,4 +27,4 @@ function githubUserProfile() {
     });
 }
 
-githubUserProfile();
+githubUserProfile(); */
