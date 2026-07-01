@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+/* import React, { useEffect, useState } from 'react'
 
 function App() {
 
@@ -53,6 +53,68 @@ if(error) return  <p> something went wrong </p>
 
 
     </div>
+  )
+}
+
+export default App */
+
+
+// Async await approach 
+
+
+import React, { useEffect, useState } from 'react'
+
+function App() {
+
+  // Buisnes logic 
+
+// step1 : Defining the states
+ 
+
+const[post, setPosts] = useState([]) // array of objects - key value pairs 
+
+const[loading, setLoading] = useState(true)
+
+// Error handling - exercise 
+
+
+// step 2 - executing the main logic 
+
+useEffect(()=>{
+
+fetchPosts()
+  
+},[]) // only run on mount 
+
+async function fetchPosts() {
+
+
+const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+
+const data = await response.json() ;
+
+setPosts(post); 
+setLoading(false)
+
+
+}
+
+
+// UI showcasing
+
+if(loading) return <p>Loading please wait ....</p>
+// error - homework 
+
+
+  // UI Part 
+  return (
+    <div>
+      <h1>Data fetching in react - Async await </h1>
+      
+      <h3>Title : {post[0]?.title}</h3>
+      <h3>Title2 : {post[1]?.title}</h3>
+      
+      </div>
   )
 }
 
