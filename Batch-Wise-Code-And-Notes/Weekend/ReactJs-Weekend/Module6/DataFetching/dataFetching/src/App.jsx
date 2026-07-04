@@ -1,4 +1,4 @@
-/* import React, { useEffect, useState } from "react";
+ import React, { useEffect, useState } from "react";
 
 function App() {
   // STEP1 - defining states
@@ -10,7 +10,7 @@ function App() {
   // Step2 - useEffect with fetch
 
   useEffect(() => {
-    fetch("https://api.github.com/users/pritesh709")
+    fetch("https://api.github.com/users/pritesh7098")
       .then((response) => response.json())
       .then((data) => {
         setPosts(data);
