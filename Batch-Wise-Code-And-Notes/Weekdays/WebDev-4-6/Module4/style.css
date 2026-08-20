@@ -1,0 +1,14 @@
+#head1 {
+
+    background-color: red;
+
+}
+
+/* id deals with uniquness and must preserve unique value  */
+
+.all-headings {
+
+    background-color: yellow;
+    color: red;
+
+}
