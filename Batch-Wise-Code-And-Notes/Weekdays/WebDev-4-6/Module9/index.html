@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module9- HTML Forms</title>
+  </head>
+  <body>
+    <label for="name">Enter your name : </label>
+    <input type="text" placeholder="Enter your name" />
+
+    <hr />
+    <label for="password">Enter your password : </label>
+    <input type="password" placeholder="Enter your password" />
+    <hr />
+
+    <label for="email">Enter your email : </label>
+    <input type="email" placeholder="Enter your email" />
+    <hr />
+
+    <label for="number">Enter no between 1 to 100 : </label>
+    <input
+      type="number"
+      placeholder="Enter no between 1 to 100"
+      min="1"
+      max="100"
+    />
+
+    <!-- min and max defines the range  -->
+    <hr />
+
+    <label for="date">Select Date : </label>
+    <input type="date" />
+    <!-- Date basically gives us actual current date -->
+    <hr />
+
+    <input type="radio" name="gender" /> Male
+    <input type="radio" name="gender" /> Female
+    <hr />
+    <!--  Yes or no with label -->
+
+    <label for="radio">Select only one : </label>
+
+    <input type="radio" name="selective" /> Yes
+    <input type="radio" name="selective" /> No
+
+    <!-- Just add values after the basic syntax
+ without closing it -->
+
+    <hr />
+
+    <label for="checkboxes">Select your core skills : </label> <br />
+
+    <input type="checkbox" /> HTML <br />
+    <input type="checkbox" /> CSS <br />
+    <input type="checkbox" /> JS <br />
+    <input type="checkbox" /> React <br />
+    <input type="checkbox" /> NodeJS <br />
+    <hr />
+
+    <!-- File upload -->
+
+    <label for="file">Upload your file (pdf/ppt) : </label>
+    <input type="file" />
+
+    <!-- file uploads mainly used for - when you need the specific file from your system / local machine -->
+
+    <hr />
+
+    <input type="submit" value="submit Form" />
+
+    <input type="reset" value="reset" />
+  </body>
+</html>
