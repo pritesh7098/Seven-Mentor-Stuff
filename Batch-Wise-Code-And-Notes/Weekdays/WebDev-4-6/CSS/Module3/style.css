@@ -1,0 +1,32 @@
+h1 {
+  /* Hexadecimal values -  colors  */
+  color: #f80404;
+}
+
+/* Rgb - ranges from 0-255 */
+
+#para {
+  color: rgb(1, 54, 34);
+}
+
+/* hsl colors  */
+
+ul {
+  color: hsl(242, 38%, 60%);
+}
+
+/* --------------------------------------------------- */
+
+/* Units in css */
+
+h1 {
+  font-size: 16px;
+}
+
+#list {
+  width: 50%; /* It is relative to it's parent -> div -> body -> html -> Browser */
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+}
