@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*  import React, { useState } from "react";
 
 function Login() {
   // step 2 : adding state logic / buisness logic inside our UI Part
@@ -44,6 +44,55 @@ console.log("Reccived cred from Frontend are : ", username, password )
           setPassword(e.target.value); // step 3 : setting the value to the store which user has given 
         }}
       />
+      <br />
+      <br />
+      <button>Login</button>
+    </form>
+  );
+}
+
+export default Login; */
+ 
+
+/* ------------------------------------------- */
+
+import React, { useRef } from "react";
+
+function Login() {
+
+  // step 2 : Defining the states or buisness logic
+  // Definig refferences instead of states in react  
+
+  const userNameRef =  useRef();
+  const passwordRef = useRef(); 
+
+  // Add address and picode for this 
+
+
+// Step 3 : last step - submitting the form 
+
+const handlerFunction  = (e)=> { 
+
+  e.preventDefault(); 
+  console.log("Reccived username and password on backend : ", userNameRef.current.value, 
+    passwordRef.current.value
+  )
+
+
+} 
+
+
+
+// step 1 : Defining the UI 
+
+  return (
+    <form onSubmit={handlerFunction}>
+      <label htmlFor="username">Username : </label>
+      <input type="text" placeholder="Enter your username " ref={userNameRef} /> {/* step 3 - instead of value we use ref simp;ly  */}
+      <br />
+      <br />
+      <label htmlFor="password">Password : </label>
+      <input type="text" placeholder="Enter your password" ref={passwordRef} />
       <br />
       <br />
       <button>Login</button>
