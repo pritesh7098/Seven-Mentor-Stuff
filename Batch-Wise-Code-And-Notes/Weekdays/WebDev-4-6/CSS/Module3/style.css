@@ -19,9 +19,9 @@ ul {
 
 /* Units in css */
 
-h1 {
+/* h1 {
   font-size: 16px;
-}
+} */
 
 #list {
   width: 50%; /* It is relative to it's parent -> div -> body -> html -> Browser */
@@ -29,4 +29,66 @@ h1 {
   border: 2px solid black;
   padding: 40px;
   margin: 20px;
+}
+
+/* ----------- */
+
+#para3 {
+  /* em derived from english alphabet M  */
+
+  font-size: 2em;
+}
+
+#rootPara {
+  font-size: 1rem;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: wheat;
+}
+
+/* em and rem size depend on the parent element  */
+
+/* ------------------------------- */
+
+#container {
+  width: 50vw;
+  height: 50vh;
+  /* VW for width and vh for height as div is block level elemt which takes full width at a start and if we want to change we can use vw and vh  */
+
+  border: 2px solid red;
+  padding: 8px;
+  margin: 8px;
+  background-color: antiquewhite;
+  font-family: sans-serif;
+
+  /* for the external fonts - you can use google fonts and import it locally */
+
+  /* font-weight: 600; */ /* adding boldness to the font  */
+
+  font-weight: lighter;
+}
+
+#line-height {
+  /* adjust the space between the text lines  */
+  line-height: 1.2;
+  letter-spacing: 8px;
+  text-decoration: line-through;
+}
+
+#letter {
+  letter-spacing: 6px;
+  text-align: center;
+  /* defining where the text will lies in the page (horizontally )  */
+  text-decoration: line-none;
+  /* most of the time the decoration is set to none because we have to add external styles to it.  */
+
+  text-transform: uppercase;
+
+  /* you can transform your text-style even 
+it is already hard-coded */
 }
