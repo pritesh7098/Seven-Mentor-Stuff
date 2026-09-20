@@ -1,5 +1,7 @@
 import React from "react";
 
+// create a prop - reusability 
+
 // properties are dynamic values which you can add later ( 5 students )
 
 function Student(props) {
