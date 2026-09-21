@@ -1,0 +1,53 @@
+/* button:hover {
+
+
+background-color: brown;
+padding: 10px;
+margin: 10px;
+border: 2px solid green;
+
+}  */
+
+#login:active {
+
+    background-color: yellow;
+    padding: 8px;
+    border: 2px solid red;
+
+}
+
+a:active{
+
+/* code here */
+color: red;
+
+}
+
+input:focus {
+
+background-color: yellow;
+padding: 10px;
+margin: 10px;
+
+}
+
+
+/* first child and last child  */
+
+/* li:last-child { 
+
+color: red;
+background-color: yellow;
+} */ 
+
+li:nth-child(even){
+
+    color: red;
+    background-color: green;
+
+}
+
+li:nth-child(odd){
+    color: yellow;
+    background-color: burlywood;
+}
