@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Counter() {
   // Buisness logic
@@ -8,6 +8,12 @@ function Counter() {
   // useState hook
 
   const [count, setCount] = useState(20);
+
+   useEffect(() => {
+    // LOGIC
+
+    console.log("Count is changed to : " + count);
+  }, [count]); 
 
   // Increment
 

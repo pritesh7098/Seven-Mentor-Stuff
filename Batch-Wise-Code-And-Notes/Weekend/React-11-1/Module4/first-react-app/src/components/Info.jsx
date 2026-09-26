@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 function Info(props) {
   return (
@@ -11,3 +11,4 @@ function Info(props) {
 }
 
 export default Info;
+ */
