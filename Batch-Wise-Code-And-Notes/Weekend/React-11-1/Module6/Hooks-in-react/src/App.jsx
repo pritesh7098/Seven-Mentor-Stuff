@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function App() {
   // Buisness logic
 
-  const [count, setCount] = useState(12);
+  const [count, setCount] = useState(14);
 
   /* useEffct syntax */
 
@@ -28,6 +28,8 @@ function App() {
 
   useEffect(() => {
     // logic comes inside this will repeat again and again when the dependency array changes
+
+    // fetch method 
 
     console.log("Current count : " + count);
   }, [count]);
