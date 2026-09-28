@@ -1,0 +1,25 @@
+#heading1 {
+  color: blue;
+}
+
+#heading2 {
+  color: aqua;
+}
+
+/* class selector  */
+
+.ul {
+  color: red;
+}
+
+.ol {
+  color: yellow;
+}
+
+html {
+  background-color: gray;
+}
+
+body {
+  background-color: black;
+}
