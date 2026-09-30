@@ -1,0 +1,55 @@
+/* Universal selector - basically selects and apply the properties for the viewport relates to the browser  */
+
+/* Browser's viewport always have a high precedence than any other html element   */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+}
+
+/* body {
+  border: 2px solid red;
+  background-color: yellow;
+} */
+
+/* ---------------------- */
+
+/* group selector */
+
+/* h1, h2, p { 
+
+color: brown;
+background-color: yellow;
+
+} */
+
+/* ---------------- */
+
+/* Descendent selector */ 
+
+/* div  p { 
+
+    background-color: aqua;
+
+}
+
+ */
+
+ /* Child selector : it selects direct child of a parent  */
+
+/*  div > h1 { 
+
+
+    color: brown;
+    background-color: yellow;
+
+ } */
+
+ /* Adjecent sibling selector - it selects the element just adjecent to it  */ 
+
+ h1 ~ p { 
+
+    background-color: antiquewhite;
+
+ }
