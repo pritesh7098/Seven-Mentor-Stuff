@@ -1,4 +1,4 @@
-#box {
+/* #box {
   border: 2px solid black;
   padding: 50px;
   margin: 20px;
@@ -18,3 +18,16 @@ bottom: 10px;
 left: 120px;
 }
 
+ */
+
+
+ #nav { 
+
+background-color: aqua;
+padding: 8px;
+border: 2px solid black;
+margin: 8px; 
+position: sticky;
+top: 0;
+
+ }
