@@ -1,0 +1,54 @@
+.container {
+  border: 2px solid black;
+  padding: 100px;
+  margin: 20px;
+  background-color: azure;
+  display: flex; /* It flexes the targetted box horizontally as needed */
+
+   flex-direction: row;  /* by default deirection set to row only and if required you can change it to the column */
+
+  /* row-reverse and col-reverse just reverses the actual childs of parent/container  */
+
+  /*    justify-content: left;
+ */
+  /* works with x axis for managing the position of childs horizontally  */
+
+  /* you can add space property to this to manage the space between the child elements  */
+  /* 
+  align-items: flex-end; */ /* apply properties at vertical level ( targets an y axis )   */
+
+ /*   flex-wrap: wrap; */  /* wraps the child elements in a container  */
+
+  /* align-content: center;  */
+
+ /*  gap: 3em; */ /* adding the gap between elements with respect to row and column */
+
+  /* it shorthand property for row-gap and col-gap */
+
+}
+
+#box1 {
+  border: 2px solid red;
+  background-color: yellow;
+  padding: 20px;
+  margin: 20px;
+  /* flex-grow: 1; */ /*  It grows be it vertically/horizontally with respect to neigbouring child elements    */
+  flex-shrink: -1; /* it shrinks the targetted element , mostly use with grid layouts */
+}
+
+#box2 {
+  border: 2px solid red;
+  background-color: yellow;
+  width: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#box3 {
+  border: 2px solid red;
+  background-color: yellow;
+  width: 40px;
+  padding: 20px;
+  margin: 20px;
+
+}
