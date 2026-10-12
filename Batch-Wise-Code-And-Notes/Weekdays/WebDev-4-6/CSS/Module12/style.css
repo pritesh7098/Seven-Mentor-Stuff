@@ -1,0 +1,34 @@
+body {
+  background-color: gray;
+}
+
+#heading {
+  color: brown;
+  background-color: yellow;
+}
+
+button {
+  border: 2px solid black;
+  background-color: greenyellow;
+  padding: 8px;
+}
+
+/* Media query syntax */
+
+@media (max-width: 768px) {
+  #heading {
+    background-color: green;
+    font-size: larger;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  #heading {
+    background-color: aqua;
+
+  }
+}
+
+
+
