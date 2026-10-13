@@ -1,0 +1,56 @@
+/* code should be clean and readable  */
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
+p {
+  color: blue;
+}
+
+/* proper indentations matters more in proframming languages  */
+
+/* .header-title
+.card-container
+.primary-button  */
+
+/* class name should follow a basic rule - describe what it represents  */
+
+/* Structure and styles should be in different files, whenever you are using react you are dealing with jsx syntax which is combination of HTML + js also you can apply css in line for instant results   */
+
+.button {
+  background-color: yellow;
+  padding: 5px;
+}
+
+/* dont' repeat the different classes for the things which share the common properties  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* container properties will lie here  */
+}
+
+#button-1 {
+  /* button styles */
+}
+
+/* you have to stack css styles one by one doesen;t matter which styles is imp you have to follow the basic rule  */
+
+/* DRY Principle : dont repeat yourself - don't repeat the styles if already defined, use the previous styles whenever needed */
+
+/* optimize performance - in vanila css , performance often depends on loc - lines of code, repeated structure, reusability, minimal use of styles.  */
+
+/* CSS Reset  */
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* by resetting the css it removes all the styles which are applies to the page and clear the css object model */
