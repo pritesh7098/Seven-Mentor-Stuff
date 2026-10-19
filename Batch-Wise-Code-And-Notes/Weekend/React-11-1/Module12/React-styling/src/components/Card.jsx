@@ -1,5 +1,3 @@
-import React from "react";
-
 function Card() {
   return (
     <div>
@@ -15,4 +13,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Card;     
