@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import Parent from './components/Parent'
 
 function App() {
@@ -12,4 +12,27 @@ function App() {
   )
 }
 
-export default App
+export default App */
+
+
+import { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+ function increaseCount() {
+  setCount(prev => prev + 1);
+  setCount(prev => prev + 1);
+  setCount(prev => prev + 1);
+}
+  return (
+    <div>
+      <h2>{count}</h2>
+      <button onClick={increaseCount}>
+        Increase
+      </button>
+    </div>
+  );
+}
+
+export default Counter;
