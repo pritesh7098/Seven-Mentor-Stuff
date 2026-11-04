@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms in HTML</h1>
+    <hr />
+
+    <!-- Form tag -->
+    <form>
+      <!-- every field of the form will be written here -->
+
+      <label for="username">Enter your username : </label>
+      <br />
+      <input type="text" />
+      <br /><br />
+      <label for="password">Enter your password : </label><br />
+      <input type="username" />
+      <br /><br />
+
+      <label for="age">Enter your age : </label>
+      <br />
+      <input type="number" />
+      <br /><br />
+
+      <label for="date">Enter your Birthdate : </label><br />
+      <input type="date" />
+
+      <!-- date input type provide us with a calender  -->
+
+      <br />
+      <br />
+
+      <label for="gender">Select your gender : </label>
+
+      <input type="radio" name="gender" id="gender" /> Male
+      <input type="radio" name="gender" id="gender" /> Female
+
+      <br /><br />
+      <!-- radio buttons used only when we have to select one option amongst all -->
+
+      <label for="skills">Select your skills : </label>
+      <br />
+      <input type="checkbox" name="skills" id="skills" /> HTML
+      <br />
+      <input type="checkbox" name="skills" id="skills" /> css
+      <br />
+      <input type="checkbox" name="skills" id="skills" /> js
+      <br />
+      <input type="checkbox" name="skills" id="skills" /> react, nodeJS
+      <br /><br />
+
+      <!-- for multiple selections you can use checkbox as an input type -->
+
+      <label for="file">Upload your resume : </label>
+      <input type="file" name="file" id="file" />
+      <!-- it will select a file from a local system  -->
+
+      <br /><br />
+
+      <label for="feedback">Enter your feedback/review : </label>
+      <textarea name="feedback" id="feedback" cols="70" rows="10"></textarea
+      ><br /><br />
+
+      <!-- used for fedbacks/comments/review -->
+
+      <label for="country">Select your country : </label>
+
+      <select>
+        <option value="">Select country below</option>
+        <option value="">UK</option>
+        <option value="">India</option>
+        <option value="">China</option>
+        <option value="">Japan</option>
+      </select>
+<br><br>
+      <!-- when you want to select one value amongst multiple options -->
+
+      <input type="checkbox"> I agree on terms and conditions
+
+      <br><br>
+
+      <button>Submit</button>
+
+
+    </form>
+  </body>
+</html>
