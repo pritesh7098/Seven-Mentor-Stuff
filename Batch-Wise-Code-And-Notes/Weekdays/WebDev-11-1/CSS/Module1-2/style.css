@@ -1,6 +1,86 @@
 /* This file includes all the styling link with HTML File  */
-
+/* 
 h3 {
   background-color: yellow;
   color: brown;
+} */
+
+/* ------------------------------------ */
+
+/* Selector's in css  */
+
+/* elements selector */
+
+/* p { 
+
+  color: brown; 
+  background-color: antiquewhite;
+
+} */
+
+/* class selector - where we have multiple html elements under one parent element / container */
+
+/* .div_class {
+  color: red;
+  background-color: beige;
+} */
+
+/*create  a class of unordered list in this there are 3 list items and style it  */
+
+/* id selector - selects the unique element and styles it  */
+
+/* #para {
+  color: aqua;
+  background-color: yellow;
+} */
+
+/* universsal selector - selects all the elements present on a webpage*/
+
+* {
+  background-color: white;
+}
+
+/* multiple element selector/ Group Selector - style the elements group-wise */
+
+/* h2,
+p {
+  background-color: yellow;
+  color: brown;
+} */
+
+/* descendent selector - where you style elements under the parent   */
+
+/* div h3 {
+  background-color: aqua;
+}
+
+div li {
+  background-color: yellow;
+} */
+
+/* Chile selector */ 
+
+/* div > li { 
+
+
+font-size: xx-large ;
+background-color: yellow;
+
+} */
+
+/* Adjacent Sibling Selector - selects element just after anothe element  */ 
+
+/* h2 + a { 
+
+background-color: aqua;
+
+} */
+
+/* general sibling selector - it selects all the general siblings of a html element  */ 
+
+p ~ li { 
+
+
+  color: red;
+
 }
